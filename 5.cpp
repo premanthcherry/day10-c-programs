@@ -1,0 +1,19 @@
+/*
+1
+12
+123
+1234
+12345*/
+#include<stdio.h>
+main()
+{
+   int r,c;
+   for(r=97;r<=101;r++)
+   {
+   	  for(c=97;c<=r;c++)
+      {
+   	   printf("%c",c);	
+	  }
+      printf("\n");
+   }
+}
